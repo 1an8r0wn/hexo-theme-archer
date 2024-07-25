@@ -15,6 +15,7 @@
     <meta name="author" content="<%- config.author %>">
     <meta name="renderer" content="webkit">
     <meta name="copyright" content="<%- config.author %>">
+    <%- autoCanonical(config, page) %>
     <%_ if (keywords) { _%>
         <meta name="keywords" content="<%- keywords %>">
     <%_ } else { _%>
